@@ -1,0 +1,59 @@
+/* CSS File */
+
+/* Apply basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style the form */
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the amount input field */
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the dropdown menus */
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  #add_expense {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add some spacing between elements */
+  br {
+    margin-bottom: 10px;
+  }
+  
